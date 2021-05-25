@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libsoundio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coverage">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 coverage"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 unit_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 unit_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backend_disconnect_recover">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/backend_disconnect_recover" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 backend_disconnect_recover"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backend_disconnect_recover/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/backend_disconnect_recover" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 backend_disconnect_recover/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_record">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_record" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_record"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_record/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_record" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_record/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libsoundio_static">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/libsoundio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 libsoundio_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libsoundio_static/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/libsoundio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 libsoundio_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_sine">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_sine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_sine"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_sine/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_sine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_sine/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_microphone">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_microphone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_microphone"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_microphone/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_microphone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_microphone/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="overflow">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 overflow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="overflow/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/overflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 overflow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libsoundio_shared">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/libsoundio.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 libsoundio_shared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libsoundio_shared/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/libsoundio.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 libsoundio_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="underflow">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/underflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 underflow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="underflow/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/underflow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 underflow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_list_devices">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_list_devices" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_list_devices"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sio_list_devices/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/sio_list_devices" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 sio_list_devices/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="latency">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/latency" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 latency"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="latency/fast">
+				<Option output="/Users/aliwang/Repos/libsoundio/cmake-build-release/latency" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreAudio.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AudioUnit.framework/Headers"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/cmake-build-release"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/test"/>
+					<Add directory="/Users/aliwang/Repos/libsoundio/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 latency/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aliwang/Repos/libsoundio/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/example/sio_list_devices.c">
+			<Option target="sio_list_devices"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/example/sio_microphone.c">
+			<Option target="sio_microphone"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/example/sio_record.c">
+			<Option target="sio_record"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/example/sio_sine.c">
+			<Option target="sio_sine"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/channel_layout.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/coreaudio.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/coreaudio.h">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/dummy.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/dummy.h">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/os.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/os.h">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/ring_buffer.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/ring_buffer.h">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/soundio.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/util.c">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/util.h">
+			<Option target="unit_tests"/>
+			<Option target="libsoundio_static"/>
+			<Option target="libsoundio_shared"/>
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/test/backend_disconnect_recover.c">
+			<Option target="backend_disconnect_recover"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/test/latency.c">
+			<Option target="latency"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/test/overflow.c">
+			<Option target="overflow"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/test/underflow.c">
+			<Option target="underflow"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/test/unit_tests.c">
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/cmake/FindCoreAudio.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/src/config.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/aliwang/Repos/libsoundio/doc/doxygen.conf.in">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
